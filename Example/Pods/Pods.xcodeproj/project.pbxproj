@@ -13,20 +13,6 @@
 		7007C65329FDE122350B7363F79B7404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		871C39F1F3422A8052BC818BB8F70DD1 /* Pods-FYNModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C249EDBAEDF42AD90EA4FEF6DB8770DB /* Pods-FYNModule_Tests-dummy.m */; };
 		93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 93872DC51F3C70E200EF34BC /* .gitkeep */; };
-		93872DEB1F3C70E200EF34BC /* FYNCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */; };
-		93872DEC1F3C70E200EF34BC /* FYNCustomPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */; };
-		93872DED1F3C70E200EF34BC /* FYNCustomPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */; };
-		93872DEE1F3C70E200EF34BC /* FYNCustomPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */; };
-		93872DEF1F3C70E200EF34BC /* FYNDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */; };
-		93872DF01F3C70E200EF34BC /* FYNDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */; };
-		93872DF11F3C70E200EF34BC /* FYNKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD01F3C70E200EF34BC /* FYNKeyboard.m */; };
-		93872DF21F3C70E200EF34BC /* FYNKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */; };
-		93872DF31F3C70E200EF34BC /* FYNKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */; };
-		93872DF41F3C70E200EF34BC /* FYNKeyboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */; };
-		93872DF51F3C70E200EF34BC /* FYNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD71F3C70E200EF34BC /* FYNNotification.m */; };
-		93872DF61F3C70E200EF34BC /* FYNNotification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD81F3C70E200EF34BC /* FYNNotification.xib */; };
-		93872DF71F3C70E200EF34BC /* FYNPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDA1F3C70E200EF34BC /* FYNPicker.m */; };
-		93872DF81F3C70E200EF34BC /* FYNPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DDB1F3C70E200EF34BC /* FYNPicker.xib */; };
 		93872DF91F3C70E200EF34BC /* FYNSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDD1F3C70E200EF34BC /* FYNSegment.m */; };
 		93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDF1F3C70E200EF34BC /* FYNSwitch.m */; };
 		93872DFB1F3C70E200EF34BC /* UIButton+FYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE11F3C70E200EF34BC /* UIButton+FYButton.m */; };
@@ -65,28 +51,6 @@
 		6A12CA9373A117BA0FF6DCA49DC8AF04 /* Pods-FYNModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FYNModule_Example.modulemap"; sourceTree = "<group>"; };
 		7FCBED9DA4546FEFBD4E60AF326863CC /* Pods_FYNModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYNModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93872DC51F3C70E200EF34BC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		93872DC61F3C70E200EF34BC /* FYNCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNCustomPicker.h; sourceTree = "<group>"; };
-		93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNCustomPicker.m; sourceTree = "<group>"; };
-		93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNCustomPicker.xib; sourceTree = "<group>"; };
-		93872DC91F3C70E200EF34BC /* FYNCustomPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNCustomPickerCell.h; sourceTree = "<group>"; };
-		93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNCustomPickerCell.m; sourceTree = "<group>"; };
-		93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNCustomPickerCell.xib; sourceTree = "<group>"; };
-		93872DCC1F3C70E200EF34BC /* FYNDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNDatePicker.h; sourceTree = "<group>"; };
-		93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNDatePicker.m; sourceTree = "<group>"; };
-		93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNDatePicker.xib; sourceTree = "<group>"; };
-		93872DCF1F3C70E200EF34BC /* FYNKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboard.h; sourceTree = "<group>"; };
-		93872DD01F3C70E200EF34BC /* FYNKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNKeyboard.m; sourceTree = "<group>"; };
-		93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNKeyboard.xib; sourceTree = "<group>"; };
-		93872DD21F3C70E200EF34BC /* FYNKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboardCell.h; sourceTree = "<group>"; };
-		93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNKeyboardCell.m; sourceTree = "<group>"; };
-		93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNKeyboardCell.xib; sourceTree = "<group>"; };
-		93872DD51F3C70E200EF34BC /* FYNKeyboardEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboardEnum.h; sourceTree = "<group>"; };
-		93872DD61F3C70E200EF34BC /* FYNNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNNotification.h; sourceTree = "<group>"; };
-		93872DD71F3C70E200EF34BC /* FYNNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNNotification.m; sourceTree = "<group>"; };
-		93872DD81F3C70E200EF34BC /* FYNNotification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNNotification.xib; sourceTree = "<group>"; };
-		93872DD91F3C70E200EF34BC /* FYNPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNPicker.h; sourceTree = "<group>"; };
-		93872DDA1F3C70E200EF34BC /* FYNPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNPicker.m; sourceTree = "<group>"; };
-		93872DDB1F3C70E200EF34BC /* FYNPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNPicker.xib; sourceTree = "<group>"; };
 		93872DDC1F3C70E200EF34BC /* FYNSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNSegment.h; sourceTree = "<group>"; };
 		93872DDD1F3C70E200EF34BC /* FYNSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNSegment.m; sourceTree = "<group>"; };
 		93872DDE1F3C70E200EF34BC /* FYNSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNSwitch.h; sourceTree = "<group>"; };
@@ -228,28 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				93872DC51F3C70E200EF34BC /* .gitkeep */,
-				93872DC61F3C70E200EF34BC /* FYNCustomPicker.h */,
-				93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */,
-				93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */,
-				93872DC91F3C70E200EF34BC /* FYNCustomPickerCell.h */,
-				93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */,
-				93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */,
-				93872DCC1F3C70E200EF34BC /* FYNDatePicker.h */,
-				93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */,
-				93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */,
-				93872DCF1F3C70E200EF34BC /* FYNKeyboard.h */,
-				93872DD01F3C70E200EF34BC /* FYNKeyboard.m */,
-				93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */,
-				93872DD21F3C70E200EF34BC /* FYNKeyboardCell.h */,
-				93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */,
-				93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */,
-				93872DD51F3C70E200EF34BC /* FYNKeyboardEnum.h */,
-				93872DD61F3C70E200EF34BC /* FYNNotification.h */,
-				93872DD71F3C70E200EF34BC /* FYNNotification.m */,
-				93872DD81F3C70E200EF34BC /* FYNNotification.xib */,
-				93872DD91F3C70E200EF34BC /* FYNPicker.h */,
-				93872DDA1F3C70E200EF34BC /* FYNPicker.m */,
-				93872DDB1F3C70E200EF34BC /* FYNPicker.xib */,
 				93872DDC1F3C70E200EF34BC /* FYNSegment.h */,
 				93872DDD1F3C70E200EF34BC /* FYNSegment.m */,
 				93872DDE1F3C70E200EF34BC /* FYNSwitch.h */,
@@ -421,18 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93872DF21F3C70E200EF34BC /* FYNKeyboard.xib in Resources */,
 				A1670241B1BA9BA2B42C8915C2D58E31 /* FYN-Notification-error@3x.png in Resources */,
-				93872DF41F3C70E200EF34BC /* FYNKeyboardCell.xib in Resources */,
 				FB06804ECB46E3AD1F09A5AE2C74D03F /* FYN-Notification-notice@3x.png in Resources */,
-				93872DEC1F3C70E200EF34BC /* FYNCustomPicker.xib in Resources */,
-				93872DF81F3C70E200EF34BC /* FYNPicker.xib in Resources */,
-				93872DF01F3C70E200EF34BC /* FYNDatePicker.xib in Resources */,
 				93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */,
-				93872DF61F3C70E200EF34BC /* FYNNotification.xib in Resources */,
 				9626D7E298DF9DE989A48BD651632B83 /* FYN-QB-selected@3x.png in Resources */,
 				2DCFB250C70B30F13382802F5BFF47E8 /* FYN-QB-unselected@3x.png in Resources */,
-				93872DEE1F3C70E200EF34BC /* FYNCustomPickerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,18 +379,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93872DFF1F3C70E200EF34BC /* UIView+FYView.m in Sources */,
-				93872DEF1F3C70E200EF34BC /* FYNDatePicker.m in Sources */,
-				93872DED1F3C70E200EF34BC /* FYNCustomPickerCell.m in Sources */,
-				93872DF51F3C70E200EF34BC /* FYNNotification.m in Sources */,
 				93872DFE1F3C70E200EF34BC /* UITextView+FYTextView.m in Sources */,
-				93872DF11F3C70E200EF34BC /* FYNKeyboard.m in Sources */,
-				93872DEB1F3C70E200EF34BC /* FYNCustomPicker.m in Sources */,
 				93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */,
 				93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */,
 				93872DFB1F3C70E200EF34BC /* UIButton+FYButton.m in Sources */,
-				93872DF71F3C70E200EF34BC /* FYNPicker.m in Sources */,
 				93872DFC1F3C70E200EF34BC /* UIImage+FYImage.m in Sources */,
-				93872DF31F3C70E200EF34BC /* FYNKeyboardCell.m in Sources */,
 				93872DF91F3C70E200EF34BC /* FYNSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
