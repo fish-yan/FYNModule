@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FYNModule'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'My private Module.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ This is just some modules for myself, also can use by everyone.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FYNModule/Classes/**/*.*'
-  
+  s.source_files = 'FYNModule/Classes/**/*'
+  s.resource = '*/*.xib'
   s.resource_bundles = {
     'FYNModule' => ['FYNModule/Assets/*.png']
   }
