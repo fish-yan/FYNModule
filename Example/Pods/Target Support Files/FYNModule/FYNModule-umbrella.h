@@ -10,11 +10,6 @@
 #endif
 #endif
 
-#import "UIButton+FYButton.h"
-#import "UIImage+FYImage.h"
-#import "UITextField+FYTextField.h"
-#import "UITextView+FYTextView.h"
-#import "UIView+FYView.h"
 #import "FYNCustomPicker.h"
 #import "FYNCustomPickerCell.h"
 #import "FYNDatePicker.h"
@@ -25,6 +20,11 @@
 #import "FYNPicker.h"
 #import "FYNSegment.h"
 #import "FYNSwitch.h"
+#import "UIButton+FYButton.h"
+#import "UIImage+FYImage.h"
+#import "UITextField+FYTextField.h"
+#import "UITextView+FYTextView.h"
+#import "UIView+FYView.h"
 
 FOUNDATION_EXPORT double FYNModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char FYNModuleVersionString[];

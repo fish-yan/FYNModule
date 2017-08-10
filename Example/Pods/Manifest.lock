@@ -1,16 +1,16 @@
 PODS:
-  - FYNModule (0.1.0)
+  - FYNModule (0.1.2)
 
 DEPENDENCIES:
   - FYNModule (from `../`)
 
 EXTERNAL SOURCES:
   FYNModule:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  FYNModule: ef76554d44f13fce5217b41725b492b7261415e8
+  FYNModule: 1d46b984a3a45a2bb762e3186a2d7b0dd8aaaf29
 
 PODFILE CHECKSUM: e8169367fe0fbbbd0948ae2c93a028d357ba40e7
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

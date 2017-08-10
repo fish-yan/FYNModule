@@ -1,8 +1,8 @@
 {
   "name": "FYNModule",
-  "version": "0.1.0",
-  "summary": "A short description of FYNModule.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "My private Module.",
+  "description": "This is just some modules for myself, also can use by everyone.",
   "homepage": "https://github.com/fish-yan/FYNModule",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/fish-yan/FYNModule.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FYNModule/Classes/**/*"
+  "source_files": "FYNModule/Classes/*.*",
+  "resource_bundles": {
+    "FYNModule": [
+      "FYNModule/Assets/*.png"
+    ]
+  }
 }
