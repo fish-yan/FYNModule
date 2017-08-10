@@ -31,7 +31,7 @@ This is just some modules for myself, also can use by everyone.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FYNModule/Classes/**/*'
-  s.resource = '*/*.xib'
+  s.resource = 'FYNModule/Classes/**/*.xib'
   s.resource_bundles = {
     'FYNModule' => ['FYNModule/Assets/*.png']
   }
