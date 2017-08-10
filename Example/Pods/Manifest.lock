@@ -1,0 +1,16 @@
+PODS:
+  - FYNModule (0.1.0)
+
+DEPENDENCIES:
+  - FYNModule (from `../`)
+
+EXTERNAL SOURCES:
+  FYNModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYNModule: ef76554d44f13fce5217b41725b492b7261415e8
+
+PODFILE CHECKSUM: e8169367fe0fbbbd0948ae2c93a028d357ba40e7
+
+COCOAPODS: 1.2.1
