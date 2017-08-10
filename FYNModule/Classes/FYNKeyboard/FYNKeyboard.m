@@ -34,7 +34,7 @@
 + (FYNKeyboard *)charKeyboard {
     FYNKeyboard *keyboard = [[FYNKeyboard alloc]init];
     keyboard.type = FYChar;
-    keyboard.textLimit = INTMAX_MAX;
+    keyboard.textLimit = 100;
     return keyboard;
 }
 
