@@ -20,6 +20,8 @@
 		93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE51F3C70E200EF34BC /* UITextField+FYTextField.m */; };
 		93872DFE1F3C70E200EF34BC /* UITextView+FYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */; };
 		93872DFF1F3C70E200EF34BC /* UIView+FYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE91F3C70E200EF34BC /* UIView+FYView.m */; };
+		93872E031F3C802200EF34BC /* FYNPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872E011F3C802200EF34BC /* FYNPicker.m */; };
+		93872E041F3C802200EF34BC /* FYNPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872E021F3C802200EF34BC /* FYNPicker.xib */; };
 		9626D7E298DF9DE989A48BD651632B83 /* FYN-QB-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCB14F40777AA158A78C886BBA170C /* FYN-QB-selected@3x.png */; };
 		A1670241B1BA9BA2B42C8915C2D58E31 /* FYN-Notification-error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AB80E7D12F43B0942E31AAB13E6D70 /* FYN-Notification-error@3x.png */; };
 		BDDF534473D9319414BEE24C5183B5A9 /* Pods-FYNModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA92AB55677B0CB5CD0712B8563F066 /* Pods-FYNModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,6 +67,9 @@
 		93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FYTextView.m"; sourceTree = "<group>"; };
 		93872DE81F3C70E200EF34BC /* UIView+FYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYView.h"; sourceTree = "<group>"; };
 		93872DE91F3C70E200EF34BC /* UIView+FYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYView.m"; sourceTree = "<group>"; };
+		93872E001F3C802200EF34BC /* FYNPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNPicker.h; sourceTree = "<group>"; };
+		93872E011F3C802200EF34BC /* FYNPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNPicker.m; sourceTree = "<group>"; };
+		93872E021F3C802200EF34BC /* FYNPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNPicker.xib; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983D395050D3B9A806FE30A1175567BF /* Pods-FYNModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYNModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9B85294C55D27B093E3C0A62D6B25975 /* Pods-FYNModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYNModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +196,9 @@
 		93872DC41F3C70E200EF34BC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				93872E001F3C802200EF34BC /* FYNPicker.h */,
+				93872E011F3C802200EF34BC /* FYNPicker.m */,
+				93872E021F3C802200EF34BC /* FYNPicker.xib */,
 				93872DC51F3C70E200EF34BC /* .gitkeep */,
 				93872DDC1F3C70E200EF34BC /* FYNSegment.h */,
 				93872DDD1F3C70E200EF34BC /* FYNSegment.m */,
@@ -368,6 +376,7 @@
 				93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */,
 				9626D7E298DF9DE989A48BD651632B83 /* FYN-QB-selected@3x.png in Resources */,
 				2DCFB250C70B30F13382802F5BFF47E8 /* FYN-QB-unselected@3x.png in Resources */,
+				93872E041F3C802200EF34BC /* FYNPicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93872DFF1F3C70E200EF34BC /* UIView+FYView.m in Sources */,
+				93872E031F3C802200EF34BC /* FYNPicker.m in Sources */,
 				93872DFE1F3C70E200EF34BC /* UITextView+FYTextView.m in Sources */,
 				93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */,
 				93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */,
