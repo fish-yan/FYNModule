@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FYNModule_Example' do
+  pod 'FYNModule', :path => '../'
+
+  target 'FYNModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
