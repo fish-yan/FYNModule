@@ -7,172 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		064B6F1C49EFE1947AD9C71755C8292B /* FYNPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C06BA1BC28FDABE13AE08E30933BC85C /* FYNPicker.m */; };
-		1AF5E9EAE193F75CEEEC4D90A87C17E1 /* Pods-FYNModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D351BCB65BD46AC52EDB49BBA544EB56 /* Pods-FYNModule_Example-dummy.m */; };
-		1D385075DAB097A31F34F6985D636F60 /* FYNCustomPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2E5482D5208262C8EDB91EFEE8ECD7E6 /* FYNCustomPicker.xib */; };
-		1D88A8C137ACD958FDAFA50C6427AE75 /* FYNCustomPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C7F43AB31E3B9C49682F3CECB3CF1B /* FYNCustomPickerCell.m */; };
-		27E352277F5F5475F7995B10410BDD6E /* UITextField+FYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E176AE2EC89F3FC89E15EE9F35413CB7 /* UITextField+FYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CE6C07AD8BA6F520F5EEB608119450B /* Pods-FYNModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA92AB55677B0CB5CD0712B8563F066 /* Pods-FYNModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E7DB053DB617751771C1AAA39913A9E /* FYNPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF0A3796C077BF15C31EE4934EFCF52 /* FYNPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		308BA1F1948103ACA5E68012A08691F6 /* UIImage+FYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 797C55E723FF462A5CDD8A3D6EB105F9 /* UIImage+FYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		320EC5B7A5EA4E8F3DE2CDB4958A18DB /* FYNSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = BDC39FDC741A9899CBD60A53B1DC0BC8 /* FYNSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4566D0C147CA261D0DBCBAAF436EACBF /* UIImage+FYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91739FFB30C9037355EE2D4AE432322D /* UIImage+FYImage.m */; };
-		4A79A1C95E71D5290164C1797FC67ACA /* FYNCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFFC6DE015DC8AF4B5774CE8D275D03 /* FYNCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C2AF2F32C4F9D085DC6E12A6A3037EA /* FYNKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A7990E8BDB1F642FC05C4F723D45BC /* FYNKeyboard.m */; };
-		4CD12ADDE124DAED42B0673F0B91A999 /* FYNKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E604336628D04DBD3A51D920C33368F /* FYNKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F39243DAE7B5F70E4F3E903F82D2320 /* FYNModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7E7FEE13F6EFDD3D5BA74C7CD00FEFD /* FYNModule.bundle */; };
-		5578205693D1EF61D7C6EF47B09E2F79 /* FYNDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 018F0713EB8011D0C5F5AC8219D5A34C /* FYNDatePicker.m */; };
+		2DCFB250C70B30F13382802F5BFF47E8 /* FYN-QB-unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA89237FBEEA92C6B599427DC83C488 /* FYN-QB-unselected@3x.png */; };
+		44C4389ACC561016039ED095CC656F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		59533CA751548EE21674C51BAAD8DE12 /* Pods-FYNModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBD37B6DA695D8C044D4770B9B27419 /* Pods-FYNModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E85F1A6187C93E084273DF05D0F10C5 /* FYNCustomPickerCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9F033EABBCA0A009EE5928441804CAFF /* FYNCustomPickerCell.xib */; };
-		609B26D6919144E6B2993412BB2B06B9 /* FYNNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC3A4F52DB3BA7B9178D02050428C0F /* FYNNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6131887205EB4F07ADC7CEC4277BB497 /* FYNSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A67CA9A8A9A482D9D533C806D0496 /* FYNSegment.m */; };
-		63C942E25A6FC34B856E257F588B1C34 /* FYNDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE440EBA7CE56A201A9EF55F4002274 /* FYNDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EA2F6EBA75195012BCBD50AE3205862 /* FYNSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E153B16B1BCC87A642B66C5286FC67 /* FYNSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F5077D0453D42DE0949658082884E08 /* UITextField+FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E01F920EB6C5142AFC8DF9F92CC4766 /* UITextField+FYTextField.m */; };
 		7007C65329FDE122350B7363F79B7404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		73CCC7B81BBFF88FA8B35EA91ACCE382 /* UIButton+FYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EE071C6E29D69D5D3F8F80DF573409 /* UIButton+FYButton.m */; };
-		749AB04D05809C615ED9D55D34C5DA5C /* FYNKeyboardCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D38AF29968F9B6DF385AE7E08236CEB /* FYNKeyboardCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		843B30705A3A273CC267E5E352316985 /* FYN-Notification-notice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281791881D95BEE26F33FDC5D95C448A /* FYN-Notification-notice@3x.png */; };
-		868FA24D2B69095845DA094EF145F271 /* FYN-Notification-error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B63CD79C9F3CF39A0B6F262E9AF44 /* FYN-Notification-error@3x.png */; };
 		871C39F1F3422A8052BC818BB8F70DD1 /* Pods-FYNModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C249EDBAEDF42AD90EA4FEF6DB8770DB /* Pods-FYNModule_Tests-dummy.m */; };
-		87C31978133377D15EF0F1D800CDA5DB /* FYNCustomPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 95383B57D7E91D20324491E628F925EC /* FYNCustomPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87D28DE5460A20D8EA01595B4B2AD46C /* FYNPicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = A10C026C6C068A9A36410A787EBD156E /* FYNPicker.xib */; };
-		9022841402921E18A1EBD786B03B3B2E /* FYNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB2F24E276EC784846F395DF15728C4 /* FYNNotification.m */; };
-		93146742A0AB0171866D4352BD8D0F6C /* FYNDatePicker.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F8FA21080BA7A9CF5A44F2321DE7 /* FYNDatePicker.xib */; };
-		9C0CBFAA7D9B95B2F749849A332618C9 /* FYNKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = BBB1DC31907157A837EB3D91AFC53350 /* FYNKeyboard.xib */; };
-		9CCAE022368CC96D0CE38EBFD2A422D7 /* FYNKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CB080C191C45E846116C5405314F06 /* FYNKeyboardCell.m */; };
-		9F6461AC1EED1F3690FD3C87B465504B /* FYN-QB-unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D940CE097B8C294C320265D107247A3D /* FYN-QB-unselected@3x.png */; };
-		9F7602AF502B2767C65C1B283DF3C623 /* FYNSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6238A787A9939CB92FE6012DA3B51E57 /* FYNSwitch.m */; };
-		A820ECB2CD12D9063FDF36AC80DFB179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B7EFD762990523D84482BFB2274C9F1D /* UIButton+FYButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA8DE168D7EDBEA03A7A3BEFE07CCAE /* UIButton+FYButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8695670B5DBA6FD0E23FA9436F97FFF /* UITextView+FYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3682FC418B854E624C89452E31693592 /* UITextView+FYTextView.m */; };
-		BEAD19CB9E4904D98643C87A51891520 /* FYNModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CACB9974098EDA059C4DBD65C65C604F /* FYNModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4A89F704F8A332787FE17B5D6642AF2 /* FYNKeyboardEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 90220836D1A4C9314B632101223BFCE6 /* FYNKeyboardEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA62C5950FABDE7678775B1D8CCD837B /* FYNNotification.xib in Sources */ = {isa = PBXBuildFile; fileRef = 666B70FA4446CB2E30046AC296D7D887 /* FYNNotification.xib */; };
-		CE8086A8F8463CA3A973B1268DBC0A26 /* UIView+FYView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CBC75F1B3540F438CEFEC1070DDE24 /* UIView+FYView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2A7DDE9BF3B64CA25B6B8C02B5BBD98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E32FE6288CF459B6CB58CD6388E9FD92 /* FYNModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB07F064DE5E71018781B12288D032 /* FYNModule-dummy.m */; };
-		E72653ECD71C294FDCFAC2BCBD08F988 /* UIView+FYView.m in Sources */ = {isa = PBXBuildFile; fileRef = E013CE628B5DDD3C54A2076556604087 /* UIView+FYView.m */; };
-		EFF94EC9DCF6BBDC2D87687029752C1C /* FYN-QB-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44CB8F63A7D6611DF884BC4B8C6A1D4 /* FYN-QB-selected@3x.png */; };
-		F3D356DA5ED6539E914174468C194C73 /* FYNKeyboardCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = C598A1F15A307D0971A32D6A02C1B73F /* FYNKeyboardCell.xib */; };
-		F7F401BA5D13D147443BF8ABDED11A78 /* FYNCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8598D2F7954304C6D1731893FEE3F7FC /* FYNCustomPicker.m */; };
-		F8D861841039356ED79D265282D2DAE2 /* UITextView+FYTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13856DDF775098149239BAEA5EA23C51 /* UITextView+FYTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 93872DC51F3C70E200EF34BC /* .gitkeep */; };
+		93872DEB1F3C70E200EF34BC /* FYNCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */; };
+		93872DEC1F3C70E200EF34BC /* FYNCustomPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */; };
+		93872DED1F3C70E200EF34BC /* FYNCustomPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */; };
+		93872DEE1F3C70E200EF34BC /* FYNCustomPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */; };
+		93872DEF1F3C70E200EF34BC /* FYNDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */; };
+		93872DF01F3C70E200EF34BC /* FYNDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */; };
+		93872DF11F3C70E200EF34BC /* FYNKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD01F3C70E200EF34BC /* FYNKeyboard.m */; };
+		93872DF21F3C70E200EF34BC /* FYNKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */; };
+		93872DF31F3C70E200EF34BC /* FYNKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */; };
+		93872DF41F3C70E200EF34BC /* FYNKeyboardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */; };
+		93872DF51F3C70E200EF34BC /* FYNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DD71F3C70E200EF34BC /* FYNNotification.m */; };
+		93872DF61F3C70E200EF34BC /* FYNNotification.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DD81F3C70E200EF34BC /* FYNNotification.xib */; };
+		93872DF71F3C70E200EF34BC /* FYNPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDA1F3C70E200EF34BC /* FYNPicker.m */; };
+		93872DF81F3C70E200EF34BC /* FYNPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93872DDB1F3C70E200EF34BC /* FYNPicker.xib */; };
+		93872DF91F3C70E200EF34BC /* FYNSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDD1F3C70E200EF34BC /* FYNSegment.m */; };
+		93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDF1F3C70E200EF34BC /* FYNSwitch.m */; };
+		93872DFB1F3C70E200EF34BC /* UIButton+FYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE11F3C70E200EF34BC /* UIButton+FYButton.m */; };
+		93872DFC1F3C70E200EF34BC /* UIImage+FYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE31F3C70E200EF34BC /* UIImage+FYImage.m */; };
+		93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE51F3C70E200EF34BC /* UITextField+FYTextField.m */; };
+		93872DFE1F3C70E200EF34BC /* UITextView+FYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */; };
+		93872DFF1F3C70E200EF34BC /* UIView+FYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DE91F3C70E200EF34BC /* UIView+FYView.m */; };
+		9626D7E298DF9DE989A48BD651632B83 /* FYN-QB-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFCB14F40777AA158A78C886BBA170C /* FYN-QB-selected@3x.png */; };
+		A1670241B1BA9BA2B42C8915C2D58E31 /* FYN-Notification-error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AB80E7D12F43B0942E31AAB13E6D70 /* FYN-Notification-error@3x.png */; };
+		BDDF534473D9319414BEE24C5183B5A9 /* Pods-FYNModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA92AB55677B0CB5CD0712B8563F066 /* Pods-FYNModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA993C422824CF216E353F9CE3AB5FBB /* Pods-FYNModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D351BCB65BD46AC52EDB49BBA544EB56 /* Pods-FYNModule_Example-dummy.m */; };
+		FB06804ECB46E3AD1F09A5AE2C74D03F /* FYN-Notification-notice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF57CF8A4983C9467A471450970B9120 /* FYN-Notification-notice@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EB0CFD433C79E665F90CD87157F50F0 /* PBXContainerItemProxy */ = {
+		4374133B668308945FFF8F5B17C1F267 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B85E17B90C6D2E4AA4000DA7B2C2AAC;
+			remoteGlobalIDString = 562FA7A89BD15B386B6E46A84F56826E;
 			remoteInfo = "FYNModule-FYNModule";
-		};
-		FC36E553D1BF43464B902D0C052616AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6ADC7A67864A0225E8A9CCFBF38D16C6;
-			remoteInfo = FYNModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018F0713EB8011D0C5F5AC8219D5A34C /* FYNDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNDatePicker.m; path = FYNModule/Classes/FYNDatePicker.m; sourceTree = "<group>"; };
 		0E46E6A673D926CB5F26321E5BC10DD8 /* Pods-FYNModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYNModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13856DDF775098149239BAEA5EA23C51 /* UITextView+FYTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+FYTextView.h"; path = "FYNModule/Classes/UITextView+FYTextView.h"; sourceTree = "<group>"; };
-		15C7F43AB31E3B9C49682F3CECB3CF1B /* FYNCustomPickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNCustomPickerCell.m; path = FYNModule/Classes/FYNCustomPickerCell.m; sourceTree = "<group>"; };
-		1BB2F24E276EC784846F395DF15728C4 /* FYNNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNNotification.m; path = FYNModule/Classes/FYNNotification.m; sourceTree = "<group>"; };
 		1C4940F3691D0867AF0C79DEF7B33B79 /* Pods-FYNModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYNModule_Example-resources.sh"; sourceTree = "<group>"; };
-		1D6F6823D2A386619A4702606E6C6490 /* Pods_FYNModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYNModule_Tests.framework; path = "Pods-FYNModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20AB19C42C65910040B3C42BB707B2B4 /* Pods_FYNModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYNModule_Example.framework; path = "Pods-FYNModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CBC75F1B3540F438CEFEC1070DDE24 /* UIView+FYView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FYView.h"; path = "FYNModule/Classes/UIView+FYView.h"; sourceTree = "<group>"; };
-		23F9CC5D753D8414C4A8BD3B47B2D6C9 /* FYNModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FYNModule.modulemap; sourceTree = "<group>"; };
 		24B3BAE1A4B0D00C22EC1BDE4C2DB8F0 /* Pods-FYNModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYNModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		281791881D95BEE26F33FDC5D95C448A /* FYN-Notification-notice@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-Notification-notice@3x.png"; path = "FYNModule/Assets/FYN-Notification-notice@3x.png"; sourceTree = "<group>"; };
-		2E5482D5208262C8EDB91EFEE8ECD7E6 /* FYNCustomPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNCustomPicker.xib; path = FYNModule/Classes/FYNCustomPicker.xib; sourceTree = "<group>"; };
-		3682FC418B854E624C89452E31693592 /* UITextView+FYTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+FYTextView.m"; path = "FYNModule/Classes/UITextView+FYTextView.m"; sourceTree = "<group>"; };
-		3BFB07F064DE5E71018781B12288D032 /* FYNModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYNModule-dummy.m"; sourceTree = "<group>"; };
-		45A7990E8BDB1F642FC05C4F723D45BC /* FYNKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNKeyboard.m; path = FYNModule/Classes/FYNKeyboard.m; sourceTree = "<group>"; };
-		4D38AF29968F9B6DF385AE7E08236CEB /* FYNKeyboardCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNKeyboardCell.h; path = FYNModule/Classes/FYNKeyboardCell.h; sourceTree = "<group>"; };
-		4FF0A3796C077BF15C31EE4934EFCF52 /* FYNPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNPicker.h; path = FYNModule/Classes/FYNPicker.h; sourceTree = "<group>"; };
+		456D68D8EF4CF8A66443CBC68E251CD6 /* Pods_FYNModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYNModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		547366B01A87A163A23CEB27009CA1B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58CB080C191C45E846116C5405314F06 /* FYNKeyboardCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNKeyboardCell.m; path = FYNModule/Classes/FYNKeyboardCell.m; sourceTree = "<group>"; };
-		5AC3A4F52DB3BA7B9178D02050428C0F /* FYNNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNNotification.h; path = FYNModule/Classes/FYNNotification.h; sourceTree = "<group>"; };
-		5E975306F21CDF2EF620DC0316841F6C /* Pods-FYNModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FYNModule_Tests.modulemap"; sourceTree = "<group>"; };
-		5EE440EBA7CE56A201A9EF55F4002274 /* FYNDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNDatePicker.h; path = FYNModule/Classes/FYNDatePicker.h; sourceTree = "<group>"; };
-		6238A787A9939CB92FE6012DA3B51E57 /* FYNSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNSwitch.m; path = FYNModule/Classes/FYNSwitch.m; sourceTree = "<group>"; };
+		5E975306F21CDF2EF620DC0316841F6C /* Pods-FYNModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FYNModule_Tests.modulemap"; sourceTree = "<group>"; };
+		5EFCB14F40777AA158A78C886BBA170C /* FYN-QB-selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-QB-selected@3x.png"; path = "FYNModule/Assets/FYN-QB-selected@3x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		666B70FA4446CB2E30046AC296D7D887 /* FYNNotification.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNNotification.xib; path = FYNModule/Classes/FYNNotification.xib; sourceTree = "<group>"; };
 		69088ED948F71EA71B70F724A5F291E8 /* Pods-FYNModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYNModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		69DA95BDE40E1C8B2A23FACA345BBDEE /* Pods-FYNModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYNModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A12CA9373A117BA0FF6DCA49DC8AF04 /* Pods-FYNModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FYNModule_Example.modulemap"; sourceTree = "<group>"; };
-		6A36B3691AF06FA16AB20238C4697A6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C4A67CA9A8A9A482D9D533C806D0496 /* FYNSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNSegment.m; path = FYNModule/Classes/FYNSegment.m; sourceTree = "<group>"; };
-		6E604336628D04DBD3A51D920C33368F /* FYNKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNKeyboard.h; path = FYNModule/Classes/FYNKeyboard.h; sourceTree = "<group>"; };
-		797C55E723FF462A5CDD8A3D6EB105F9 /* UIImage+FYImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FYImage.h"; path = "FYNModule/Classes/UIImage+FYImage.h"; sourceTree = "<group>"; };
-		82E153B16B1BCC87A642B66C5286FC67 /* FYNSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNSegment.h; path = FYNModule/Classes/FYNSegment.h; sourceTree = "<group>"; };
-		8598D2F7954304C6D1731893FEE3F7FC /* FYNCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNCustomPicker.m; path = FYNModule/Classes/FYNCustomPicker.m; sourceTree = "<group>"; };
-		8C8B63CD79C9F3CF39A0B6F262E9AF44 /* FYN-Notification-error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-Notification-error@3x.png"; path = "FYNModule/Assets/FYN-Notification-error@3x.png"; sourceTree = "<group>"; };
-		8DB2F8FA21080BA7A9CF5A44F2321DE7 /* FYNDatePicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNDatePicker.xib; path = FYNModule/Classes/FYNDatePicker.xib; sourceTree = "<group>"; };
-		8E01F920EB6C5142AFC8DF9F92CC4766 /* UITextField+FYTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FYTextField.m"; path = "FYNModule/Classes/UITextField+FYTextField.m"; sourceTree = "<group>"; };
-		90220836D1A4C9314B632101223BFCE6 /* FYNKeyboardEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNKeyboardEnum.h; path = FYNModule/Classes/FYNKeyboardEnum.h; sourceTree = "<group>"; };
-		91739FFB30C9037355EE2D4AE432322D /* UIImage+FYImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FYImage.m"; path = "FYNModule/Classes/UIImage+FYImage.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95383B57D7E91D20324491E628F925EC /* FYNCustomPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNCustomPickerCell.h; path = FYNModule/Classes/FYNCustomPickerCell.h; sourceTree = "<group>"; };
+		6A12CA9373A117BA0FF6DCA49DC8AF04 /* Pods-FYNModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FYNModule_Example.modulemap"; sourceTree = "<group>"; };
+		7FCBED9DA4546FEFBD4E60AF326863CC /* Pods_FYNModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYNModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93872DC51F3C70E200EF34BC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		93872DC61F3C70E200EF34BC /* FYNCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNCustomPicker.h; sourceTree = "<group>"; };
+		93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNCustomPicker.m; sourceTree = "<group>"; };
+		93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNCustomPicker.xib; sourceTree = "<group>"; };
+		93872DC91F3C70E200EF34BC /* FYNCustomPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNCustomPickerCell.h; sourceTree = "<group>"; };
+		93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNCustomPickerCell.m; sourceTree = "<group>"; };
+		93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNCustomPickerCell.xib; sourceTree = "<group>"; };
+		93872DCC1F3C70E200EF34BC /* FYNDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNDatePicker.h; sourceTree = "<group>"; };
+		93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNDatePicker.m; sourceTree = "<group>"; };
+		93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNDatePicker.xib; sourceTree = "<group>"; };
+		93872DCF1F3C70E200EF34BC /* FYNKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboard.h; sourceTree = "<group>"; };
+		93872DD01F3C70E200EF34BC /* FYNKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNKeyboard.m; sourceTree = "<group>"; };
+		93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNKeyboard.xib; sourceTree = "<group>"; };
+		93872DD21F3C70E200EF34BC /* FYNKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboardCell.h; sourceTree = "<group>"; };
+		93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNKeyboardCell.m; sourceTree = "<group>"; };
+		93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNKeyboardCell.xib; sourceTree = "<group>"; };
+		93872DD51F3C70E200EF34BC /* FYNKeyboardEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNKeyboardEnum.h; sourceTree = "<group>"; };
+		93872DD61F3C70E200EF34BC /* FYNNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNNotification.h; sourceTree = "<group>"; };
+		93872DD71F3C70E200EF34BC /* FYNNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNNotification.m; sourceTree = "<group>"; };
+		93872DD81F3C70E200EF34BC /* FYNNotification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNNotification.xib; sourceTree = "<group>"; };
+		93872DD91F3C70E200EF34BC /* FYNPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNPicker.h; sourceTree = "<group>"; };
+		93872DDA1F3C70E200EF34BC /* FYNPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNPicker.m; sourceTree = "<group>"; };
+		93872DDB1F3C70E200EF34BC /* FYNPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYNPicker.xib; sourceTree = "<group>"; };
+		93872DDC1F3C70E200EF34BC /* FYNSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNSegment.h; sourceTree = "<group>"; };
+		93872DDD1F3C70E200EF34BC /* FYNSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNSegment.m; sourceTree = "<group>"; };
+		93872DDE1F3C70E200EF34BC /* FYNSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNSwitch.h; sourceTree = "<group>"; };
+		93872DDF1F3C70E200EF34BC /* FYNSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNSwitch.m; sourceTree = "<group>"; };
+		93872DE01F3C70E200EF34BC /* UIButton+FYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYButton.h"; sourceTree = "<group>"; };
+		93872DE11F3C70E200EF34BC /* UIButton+FYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYButton.m"; sourceTree = "<group>"; };
+		93872DE21F3C70E200EF34BC /* UIImage+FYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FYImage.h"; sourceTree = "<group>"; };
+		93872DE31F3C70E200EF34BC /* UIImage+FYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FYImage.m"; sourceTree = "<group>"; };
+		93872DE41F3C70E200EF34BC /* UITextField+FYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FYTextField.h"; sourceTree = "<group>"; };
+		93872DE51F3C70E200EF34BC /* UITextField+FYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FYTextField.m"; sourceTree = "<group>"; };
+		93872DE61F3C70E200EF34BC /* UITextView+FYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FYTextView.h"; sourceTree = "<group>"; };
+		93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FYTextView.m"; sourceTree = "<group>"; };
+		93872DE81F3C70E200EF34BC /* UIView+FYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FYView.h"; sourceTree = "<group>"; };
+		93872DE91F3C70E200EF34BC /* UIView+FYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FYView.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983D395050D3B9A806FE30A1175567BF /* Pods-FYNModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYNModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9B85294C55D27B093E3C0A62D6B25975 /* Pods-FYNModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYNModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D8EC7ACEF2D9AF6DEE23E38D715F5E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F033EABBCA0A009EE5928441804CAFF /* FYNCustomPickerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNCustomPickerCell.xib; path = FYNModule/Classes/FYNCustomPickerCell.xib; sourceTree = "<group>"; };
+		9DA89237FBEEA92C6B599427DC83C488 /* FYN-QB-unselected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-QB-unselected@3x.png"; path = "FYNModule/Assets/FYN-QB-unselected@3x.png"; sourceTree = "<group>"; };
 		A0099947D29F79A7EC88A7F9F67F3E27 /* Pods-FYNModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYNModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A10C026C6C068A9A36410A787EBD156E /* FYNPicker.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNPicker.xib; path = FYNModule/Classes/FYNPicker.xib; sourceTree = "<group>"; };
-		A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYNModule.xcconfig; sourceTree = "<group>"; };
 		AE9AD10CB1F9843F399E69D21114567C /* Pods-FYNModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYNModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1BA78514785D0D4EADD2A1D2027910C /* ResourceBundle-FYNModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FYNModule-Info.plist"; sourceTree = "<group>"; };
 		B34DE6EF85017AF97984860086C07912 /* Pods-FYNModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYNModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B44CB8F63A7D6611DF884BC4B8C6A1D4 /* FYN-QB-selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-QB-selected@3x.png"; path = "FYNModule/Assets/FYN-QB-selected@3x.png"; sourceTree = "<group>"; };
-		B5EE071C6E29D69D5D3F8F80DF573409 /* UIButton+FYButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FYButton.m"; path = "FYNModule/Classes/UIButton+FYButton.m"; sourceTree = "<group>"; };
-		B7E7FEE13F6EFDD3D5BA74C7CD00FEFD /* FYNModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FYNModule.bundle; path = FYNModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA92AB55677B0CB5CD0712B8563F066 /* Pods-FYNModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYNModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		BB3B9CCC1D889E7ADBFB57ED0AF395E7 /* FYNModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYNModule-prefix.pch"; sourceTree = "<group>"; };
-		BBB1DC31907157A837EB3D91AFC53350 /* FYNKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNKeyboard.xib; path = FYNModule/Classes/FYNKeyboard.xib; sourceTree = "<group>"; };
-		BCA8DE168D7EDBEA03A7A3BEFE07CCAE /* UIButton+FYButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FYButton.h"; path = "FYNModule/Classes/UIButton+FYButton.h"; sourceTree = "<group>"; };
-		BDC39FDC741A9899CBD60A53B1DC0BC8 /* FYNSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNSwitch.h; path = FYNModule/Classes/FYNSwitch.h; sourceTree = "<group>"; };
-		C06BA1BC28FDABE13AE08E30933BC85C /* FYNPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYNPicker.m; path = FYNModule/Classes/FYNPicker.m; sourceTree = "<group>"; };
+		BF57CF8A4983C9467A471450970B9120 /* FYN-Notification-notice@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-Notification-notice@3x.png"; path = "FYNModule/Assets/FYN-Notification-notice@3x.png"; sourceTree = "<group>"; };
 		C249EDBAEDF42AD90EA4FEF6DB8770DB /* Pods-FYNModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYNModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		C3B8964B9E443B489CCB002CBA263542 /* Pods-FYNModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYNModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C598A1F15A307D0971A32D6A02C1B73F /* FYNKeyboardCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = FYNKeyboardCell.xib; path = FYNModule/Classes/FYNKeyboardCell.xib; sourceTree = "<group>"; };
-		CACB9974098EDA059C4DBD65C65C604F /* FYNModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYNModule-umbrella.h"; sourceTree = "<group>"; };
 		D351BCB65BD46AC52EDB49BBA544EB56 /* Pods-FYNModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYNModule_Example-dummy.m"; sourceTree = "<group>"; };
-		D940CE097B8C294C320265D107247A3D /* FYN-QB-unselected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-QB-unselected@3x.png"; path = "FYNModule/Assets/FYN-QB-unselected@3x.png"; sourceTree = "<group>"; };
-		DAF2ACAF931A0FFF470C273D601A64CD /* ResourceBundle-FYNModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FYNModule-Info.plist"; sourceTree = "<group>"; };
-		E013CE628B5DDD3C54A2076556604087 /* UIView+FYView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FYView.m"; path = "FYNModule/Classes/UIView+FYView.m"; sourceTree = "<group>"; };
-		E176AE2EC89F3FC89E15EE9F35413CB7 /* UITextField+FYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FYTextField.h"; path = "FYNModule/Classes/UITextField+FYTextField.h"; sourceTree = "<group>"; };
+		E4AB80E7D12F43B0942E31AAB13E6D70 /* FYN-Notification-error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "FYN-Notification-error@3x.png"; path = "FYNModule/Assets/FYN-Notification-error@3x.png"; sourceTree = "<group>"; };
 		E571848E93651056A66B9904570A19A2 /* Pods-FYNModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYNModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA87D4783170D5379691E5F18C2D0E05 /* FYNModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYNModule.framework; path = FYNModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBD37B6DA695D8C044D4770B9B27419 /* Pods-FYNModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYNModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FEFFC6DE015DC8AF4B5774CE8D275D03 /* FYNCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYNCustomPicker.h; path = FYNModule/Classes/FYNCustomPicker.h; sourceTree = "<group>"; };
+		FFC6419A9171E1D5FC5BF8B9251ED1F2 /* FYNModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYNModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		030E4434DDC50785A152784752F288B2 /* Frameworks */ = {
+		67A0801D69FB793486492B1BAC418545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C4389ACC561016039ED095CC656F84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		10A61EDD548E4BD0C7A8A9389790D95E /* Frameworks */ = {
+		7B9907D06F215A1C4135E012D5A0CE83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A820ECB2CD12D9063FDF36AC80DFB179 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78EEF05BBD8BC62D02AAE397EB643830 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2A7DDE9BF3B64CA25B6B8C02B5BBD98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,17 +148,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0770FAE47F3381E919A285A50BE0550E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B7E7FEE13F6EFDD3D5BA74C7CD00FEFD /* FYNModule.bundle */,
-				EA87D4783170D5379691E5F18C2D0E05 /* FYNModule.framework */,
-				20AB19C42C65910040B3C42BB707B2B4 /* Pods_FYNModule_Example.framework */,
-				1D6F6823D2A386619A4702606E6C6490 /* Pods_FYNModule_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		10704BCDC1B7A52F2921DFF5D0B09DFE /* Pods-FYNModule_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,21 +184,6 @@
 			path = "Target Support Files/Pods-FYNModule_Example";
 			sourceTree = "<group>";
 		};
-		35139F89FD675A421FF4CB7FBC6CA4B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23F9CC5D753D8414C4A8BD3B47B2D6C9 /* FYNModule.modulemap */,
-				A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */,
-				3BFB07F064DE5E71018781B12288D032 /* FYNModule-dummy.m */,
-				BB3B9CCC1D889E7ADBFB57ED0AF395E7 /* FYNModule-prefix.pch */,
-				CACB9974098EDA059C4DBD65C65C604F /* FYNModule-umbrella.h */,
-				6A36B3691AF06FA16AB20238C4697A6F /* Info.plist */,
-				DAF2ACAF931A0FFF470C273D601A64CD /* ResourceBundle-FYNModule-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FYNModule";
-			sourceTree = "<group>";
-		};
 		45E5F43AD8124F4FB2AFB19CB3BEA9DE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,69 +193,98 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C44C7C80C279F6EFE35BE0E256F081E /* Development Pods */ = {
+		6F59E7A63C2FDB09D9ABA4C2F853A44A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				519C1371AC2B5300EEE2052EC05F8D01 /* FYNModule */,
+				B1BA78514785D0D4EADD2A1D2027910C /* ResourceBundle-FYNModule-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYNModule";
 			sourceTree = "<group>";
 		};
-		519C1371AC2B5300EEE2052EC05F8D01 /* FYNModule */ = {
+		7C9649F6976A336374D4C4A9C03D8FC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FEFFC6DE015DC8AF4B5774CE8D275D03 /* FYNCustomPicker.h */,
-				8598D2F7954304C6D1731893FEE3F7FC /* FYNCustomPicker.m */,
-				2E5482D5208262C8EDB91EFEE8ECD7E6 /* FYNCustomPicker.xib */,
-				95383B57D7E91D20324491E628F925EC /* FYNCustomPickerCell.h */,
-				15C7F43AB31E3B9C49682F3CECB3CF1B /* FYNCustomPickerCell.m */,
-				9F033EABBCA0A009EE5928441804CAFF /* FYNCustomPickerCell.xib */,
-				5EE440EBA7CE56A201A9EF55F4002274 /* FYNDatePicker.h */,
-				018F0713EB8011D0C5F5AC8219D5A34C /* FYNDatePicker.m */,
-				8DB2F8FA21080BA7A9CF5A44F2321DE7 /* FYNDatePicker.xib */,
-				6E604336628D04DBD3A51D920C33368F /* FYNKeyboard.h */,
-				45A7990E8BDB1F642FC05C4F723D45BC /* FYNKeyboard.m */,
-				BBB1DC31907157A837EB3D91AFC53350 /* FYNKeyboard.xib */,
-				4D38AF29968F9B6DF385AE7E08236CEB /* FYNKeyboardCell.h */,
-				58CB080C191C45E846116C5405314F06 /* FYNKeyboardCell.m */,
-				C598A1F15A307D0971A32D6A02C1B73F /* FYNKeyboardCell.xib */,
-				90220836D1A4C9314B632101223BFCE6 /* FYNKeyboardEnum.h */,
-				5AC3A4F52DB3BA7B9178D02050428C0F /* FYNNotification.h */,
-				1BB2F24E276EC784846F395DF15728C4 /* FYNNotification.m */,
-				666B70FA4446CB2E30046AC296D7D887 /* FYNNotification.xib */,
-				4FF0A3796C077BF15C31EE4934EFCF52 /* FYNPicker.h */,
-				C06BA1BC28FDABE13AE08E30933BC85C /* FYNPicker.m */,
-				A10C026C6C068A9A36410A787EBD156E /* FYNPicker.xib */,
-				82E153B16B1BCC87A642B66C5286FC67 /* FYNSegment.h */,
-				6C4A67CA9A8A9A482D9D533C806D0496 /* FYNSegment.m */,
-				BDC39FDC741A9899CBD60A53B1DC0BC8 /* FYNSwitch.h */,
-				6238A787A9939CB92FE6012DA3B51E57 /* FYNSwitch.m */,
-				BCA8DE168D7EDBEA03A7A3BEFE07CCAE /* UIButton+FYButton.h */,
-				B5EE071C6E29D69D5D3F8F80DF573409 /* UIButton+FYButton.m */,
-				797C55E723FF462A5CDD8A3D6EB105F9 /* UIImage+FYImage.h */,
-				91739FFB30C9037355EE2D4AE432322D /* UIImage+FYImage.m */,
-				E176AE2EC89F3FC89E15EE9F35413CB7 /* UITextField+FYTextField.h */,
-				8E01F920EB6C5142AFC8DF9F92CC4766 /* UITextField+FYTextField.m */,
-				13856DDF775098149239BAEA5EA23C51 /* UITextView+FYTextView.h */,
-				3682FC418B854E624C89452E31693592 /* UITextView+FYTextView.m */,
-				21CBC75F1B3540F438CEFEC1070DDE24 /* UIView+FYView.h */,
-				E013CE628B5DDD3C54A2076556604087 /* UIView+FYView.m */,
-				E6561A9362D8EC30B0DE40393D60C482 /* Resources */,
-				35139F89FD675A421FF4CB7FBC6CA4B1 /* Support Files */,
+				E4AB80E7D12F43B0942E31AAB13E6D70 /* FYN-Notification-error@3x.png */,
+				BF57CF8A4983C9467A471450970B9120 /* FYN-Notification-notice@3x.png */,
+				5EFCB14F40777AA158A78C886BBA170C /* FYN-QB-selected@3x.png */,
+				9DA89237FBEEA92C6B599427DC83C488 /* FYN-QB-unselected@3x.png */,
 			);
-			name = FYNModule;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4C44C7C80C279F6EFE35BE0E256F081E /* Development Pods */,
+				9D0B6AA8E9F501B1DF53AA2741DBD7C7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0770FAE47F3381E919A285A50BE0550E /* Products */,
+				A8EE14059EF6F0FE2251A9589B4F55C7 /* Products */,
 				45E5F43AD8124F4FB2AFB19CB3BEA9DE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		93872DC41F3C70E200EF34BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93872DC51F3C70E200EF34BC /* .gitkeep */,
+				93872DC61F3C70E200EF34BC /* FYNCustomPicker.h */,
+				93872DC71F3C70E200EF34BC /* FYNCustomPicker.m */,
+				93872DC81F3C70E200EF34BC /* FYNCustomPicker.xib */,
+				93872DC91F3C70E200EF34BC /* FYNCustomPickerCell.h */,
+				93872DCA1F3C70E200EF34BC /* FYNCustomPickerCell.m */,
+				93872DCB1F3C70E200EF34BC /* FYNCustomPickerCell.xib */,
+				93872DCC1F3C70E200EF34BC /* FYNDatePicker.h */,
+				93872DCD1F3C70E200EF34BC /* FYNDatePicker.m */,
+				93872DCE1F3C70E200EF34BC /* FYNDatePicker.xib */,
+				93872DCF1F3C70E200EF34BC /* FYNKeyboard.h */,
+				93872DD01F3C70E200EF34BC /* FYNKeyboard.m */,
+				93872DD11F3C70E200EF34BC /* FYNKeyboard.xib */,
+				93872DD21F3C70E200EF34BC /* FYNKeyboardCell.h */,
+				93872DD31F3C70E200EF34BC /* FYNKeyboardCell.m */,
+				93872DD41F3C70E200EF34BC /* FYNKeyboardCell.xib */,
+				93872DD51F3C70E200EF34BC /* FYNKeyboardEnum.h */,
+				93872DD61F3C70E200EF34BC /* FYNNotification.h */,
+				93872DD71F3C70E200EF34BC /* FYNNotification.m */,
+				93872DD81F3C70E200EF34BC /* FYNNotification.xib */,
+				93872DD91F3C70E200EF34BC /* FYNPicker.h */,
+				93872DDA1F3C70E200EF34BC /* FYNPicker.m */,
+				93872DDB1F3C70E200EF34BC /* FYNPicker.xib */,
+				93872DDC1F3C70E200EF34BC /* FYNSegment.h */,
+				93872DDD1F3C70E200EF34BC /* FYNSegment.m */,
+				93872DDE1F3C70E200EF34BC /* FYNSwitch.h */,
+				93872DDF1F3C70E200EF34BC /* FYNSwitch.m */,
+				93872DE01F3C70E200EF34BC /* UIButton+FYButton.h */,
+				93872DE11F3C70E200EF34BC /* UIButton+FYButton.m */,
+				93872DE21F3C70E200EF34BC /* UIImage+FYImage.h */,
+				93872DE31F3C70E200EF34BC /* UIImage+FYImage.m */,
+				93872DE41F3C70E200EF34BC /* UITextField+FYTextField.h */,
+				93872DE51F3C70E200EF34BC /* UITextField+FYTextField.m */,
+				93872DE61F3C70E200EF34BC /* UITextView+FYTextView.h */,
+				93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */,
+				93872DE81F3C70E200EF34BC /* UIView+FYView.h */,
+				93872DE91F3C70E200EF34BC /* UIView+FYView.m */,
+			);
+			name = Classes;
+			path = FYNModule/Classes;
+			sourceTree = "<group>";
+		};
+		9D0B6AA8E9F501B1DF53AA2741DBD7C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD444D713B8E315FA3023F08A46397 /* FYNModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8EE14059EF6F0FE2251A9589B4F55C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC6419A9171E1D5FC5BF8B9251ED1F2 /* FYNModule.bundle */,
+				456D68D8EF4CF8A66443CBC68E251CD6 /* Pods_FYNModule_Example.framework */,
+				7FCBED9DA4546FEFBD4E60AF326863CC /* Pods_FYNModule_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -339,20 +303,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E6561A9362D8EC30B0DE40393D60C482 /* Resources */ = {
+		F5DD444D713B8E315FA3023F08A46397 /* FYNModule */ = {
 			isa = PBXGroup;
 			children = (
-				8C8B63CD79C9F3CF39A0B6F262E9AF44 /* FYN-Notification-error@3x.png */,
-				281791881D95BEE26F33FDC5D95C448A /* FYN-Notification-notice@3x.png */,
-				B44CB8F63A7D6611DF884BC4B8C6A1D4 /* FYN-QB-selected@3x.png */,
-				D940CE097B8C294C320265D107247A3D /* FYN-QB-unselected@3x.png */,
+				93872DC41F3C70E200EF34BC /* Classes */,
+				7C9649F6976A336374D4C4A9C03D8FC6 /* Resources */,
+				6F59E7A63C2FDB09D9ABA4C2F853A44A /* Support Files */,
 			);
-			name = Resources;
+			name = FYNModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7F0D2E7BCC84E55EF6BDD5B0394958BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDF534473D9319414BEE24C5183B5A9 /* Pods-FYNModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85B643D6D52350EABE54E5441F175451 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,47 +333,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9E96CE110241DD2FF08DC610EE301C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A79A1C95E71D5290164C1797FC67ACA /* FYNCustomPicker.h in Headers */,
-				87C31978133377D15EF0F1D800CDA5DB /* FYNCustomPickerCell.h in Headers */,
-				63C942E25A6FC34B856E257F588B1C34 /* FYNDatePicker.h in Headers */,
-				4CD12ADDE124DAED42B0673F0B91A999 /* FYNKeyboard.h in Headers */,
-				749AB04D05809C615ED9D55D34C5DA5C /* FYNKeyboardCell.h in Headers */,
-				C4A89F704F8A332787FE17B5D6642AF2 /* FYNKeyboardEnum.h in Headers */,
-				BEAD19CB9E4904D98643C87A51891520 /* FYNModule-umbrella.h in Headers */,
-				609B26D6919144E6B2993412BB2B06B9 /* FYNNotification.h in Headers */,
-				2E7DB053DB617751771C1AAA39913A9E /* FYNPicker.h in Headers */,
-				6EA2F6EBA75195012BCBD50AE3205862 /* FYNSegment.h in Headers */,
-				320EC5B7A5EA4E8F3DE2CDB4958A18DB /* FYNSwitch.h in Headers */,
-				B7EFD762990523D84482BFB2274C9F1D /* UIButton+FYButton.h in Headers */,
-				308BA1F1948103ACA5E68012A08691F6 /* UIImage+FYImage.h in Headers */,
-				27E352277F5F5475F7995B10410BDD6E /* UITextField+FYTextField.h in Headers */,
-				F8D861841039356ED79D265282D2DAE2 /* UITextView+FYTextView.h in Headers */,
-				CE8086A8F8463CA3A973B1268DBC0A26 /* UIView+FYView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99A3F80302FBAA603B0E2CD5843BEFEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE6C07AD8BA6F520F5EEB608119450B /* Pods-FYNModule_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B85E17B90C6D2E4AA4000DA7B2C2AAC /* FYNModule-FYNModule */ = {
+		562FA7A89BD15B386B6E46A84F56826E /* FYNModule-FYNModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC3F7A04AAADE5A869B04A2629A3006B /* Build configuration list for PBXNativeTarget "FYNModule-FYNModule" */;
+			buildConfigurationList = 2669BAFF04CA7EF5152997E3DF8048A3 /* Build configuration list for PBXNativeTarget "FYNModule-FYNModule" */;
 			buildPhases = (
-				4464F11DF26F9011A37DEBD5EB0A0798 /* Sources */,
-				030E4434DDC50785A152784752F288B2 /* Frameworks */,
-				B3466078EC7EE2C99EBE4D22D8A24F96 /* Resources */,
+				64F67D324D602D5D10059BE21EF00978 /* Sources */,
+				7B9907D06F215A1C4135E012D5A0CE83 /* Frameworks */,
+				FE3EE9478164B64B78245941D13A0EDF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -409,7 +350,7 @@
 			);
 			name = "FYNModule-FYNModule";
 			productName = "FYNModule-FYNModule";
-			productReference = B7E7FEE13F6EFDD3D5BA74C7CD00FEFD /* FYNModule.bundle */;
+			productReference = FFC6419A9171E1D5FC5BF8B9251ED1F2 /* FYNModule.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5A3FF2A922D0F37EAB647B61366013B1 /* Pods-FYNModule_Tests */ = {
@@ -426,44 +367,25 @@
 			);
 			name = "Pods-FYNModule_Tests";
 			productName = "Pods-FYNModule_Tests";
-			productReference = 1D6F6823D2A386619A4702606E6C6490 /* Pods_FYNModule_Tests.framework */;
+			productReference = 7FCBED9DA4546FEFBD4E60AF326863CC /* Pods_FYNModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6ADC7A67864A0225E8A9CCFBF38D16C6 /* FYNModule */ = {
+		AC525840AA849CF72A3BD9578C548AD7 /* Pods-FYNModule_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E46403D92E33AE266E7E2A3A48C204FA /* Build configuration list for PBXNativeTarget "FYNModule" */;
+			buildConfigurationList = FB0B29B183CB004D188874A838AECDD3 /* Build configuration list for PBXNativeTarget "Pods-FYNModule_Example" */;
 			buildPhases = (
-				2080ABD8EEC3718B16A0CD8162544940 /* Sources */,
-				10A61EDD548E4BD0C7A8A9389790D95E /* Frameworks */,
-				16EC1556935ACE4125904FCDA5F7930B /* Resources */,
-				8D9E96CE110241DD2FF08DC610EE301C /* Headers */,
+				B5F85E6610F0E26C9961D380F54A8DDC /* Sources */,
+				67A0801D69FB793486492B1BAC418545 /* Frameworks */,
+				7F0D2E7BCC84E55EF6BDD5B0394958BF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				788CCAC76C00219ECE139CA8D0E18768 /* PBXTargetDependency */,
-			);
-			name = FYNModule;
-			productName = FYNModule;
-			productReference = EA87D4783170D5379691E5F18C2D0E05 /* FYNModule.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C680C6480BD0BC2A69F41C17390D2B4B /* Pods-FYNModule_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A1F346647B0D0F9E7B58EABD78CE6A1 /* Build configuration list for PBXNativeTarget "Pods-FYNModule_Example" */;
-			buildPhases = (
-				1902998128854C56DE983F162A31F6EB /* Sources */,
-				78EEF05BBD8BC62D02AAE397EB643830 /* Frameworks */,
-				99A3F80302FBAA603B0E2CD5843BEFEA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20A1DBECD6B8E9E0BC48E162C0D835A6 /* PBXTargetDependency */,
+				8153011F35F5FF6A6A3B89374518C389 /* PBXTargetDependency */,
 			);
 			name = "Pods-FYNModule_Example";
 			productName = "Pods-FYNModule_Example";
-			productReference = 20AB19C42C65910040B3C42BB707B2B4 /* Pods_FYNModule_Example.framework */;
+			productReference = 456D68D8EF4CF8A66443CBC68E251CD6 /* Pods_FYNModule_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -483,82 +405,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0770FAE47F3381E919A285A50BE0550E /* Products */;
+			productRefGroup = A8EE14059EF6F0FE2251A9589B4F55C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ADC7A67864A0225E8A9CCFBF38D16C6 /* FYNModule */,
-				1B85E17B90C6D2E4AA4000DA7B2C2AAC /* FYNModule-FYNModule */,
-				C680C6480BD0BC2A69F41C17390D2B4B /* Pods-FYNModule_Example */,
+				562FA7A89BD15B386B6E46A84F56826E /* FYNModule-FYNModule */,
+				AC525840AA849CF72A3BD9578C548AD7 /* Pods-FYNModule_Example */,
 				5A3FF2A922D0F37EAB647B61366013B1 /* Pods-FYNModule_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16EC1556935ACE4125904FCDA5F7930B /* Resources */ = {
+		FE3EE9478164B64B78245941D13A0EDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F39243DAE7B5F70E4F3E903F82D2320 /* FYNModule.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3466078EC7EE2C99EBE4D22D8A24F96 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				868FA24D2B69095845DA094EF145F271 /* FYN-Notification-error@3x.png in Resources */,
-				843B30705A3A273CC267E5E352316985 /* FYN-Notification-notice@3x.png in Resources */,
-				EFF94EC9DCF6BBDC2D87687029752C1C /* FYN-QB-selected@3x.png in Resources */,
-				9F6461AC1EED1F3690FD3C87B465504B /* FYN-QB-unselected@3x.png in Resources */,
+				93872DF21F3C70E200EF34BC /* FYNKeyboard.xib in Resources */,
+				A1670241B1BA9BA2B42C8915C2D58E31 /* FYN-Notification-error@3x.png in Resources */,
+				93872DF41F3C70E200EF34BC /* FYNKeyboardCell.xib in Resources */,
+				FB06804ECB46E3AD1F09A5AE2C74D03F /* FYN-Notification-notice@3x.png in Resources */,
+				93872DEC1F3C70E200EF34BC /* FYNCustomPicker.xib in Resources */,
+				93872DF81F3C70E200EF34BC /* FYNPicker.xib in Resources */,
+				93872DF01F3C70E200EF34BC /* FYNDatePicker.xib in Resources */,
+				93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */,
+				93872DF61F3C70E200EF34BC /* FYNNotification.xib in Resources */,
+				9626D7E298DF9DE989A48BD651632B83 /* FYN-QB-selected@3x.png in Resources */,
+				2DCFB250C70B30F13382802F5BFF47E8 /* FYN-QB-unselected@3x.png in Resources */,
+				93872DEE1F3C70E200EF34BC /* FYNCustomPickerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1902998128854C56DE983F162A31F6EB /* Sources */ = {
+		64F67D324D602D5D10059BE21EF00978 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5E9EAE193F75CEEEC4D90A87C17E1 /* Pods-FYNModule_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2080ABD8EEC3718B16A0CD8162544940 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F7F401BA5D13D147443BF8ABDED11A78 /* FYNCustomPicker.m in Sources */,
-				1D385075DAB097A31F34F6985D636F60 /* FYNCustomPicker.xib in Sources */,
-				1D88A8C137ACD958FDAFA50C6427AE75 /* FYNCustomPickerCell.m in Sources */,
-				5E85F1A6187C93E084273DF05D0F10C5 /* FYNCustomPickerCell.xib in Sources */,
-				5578205693D1EF61D7C6EF47B09E2F79 /* FYNDatePicker.m in Sources */,
-				93146742A0AB0171866D4352BD8D0F6C /* FYNDatePicker.xib in Sources */,
-				4C2AF2F32C4F9D085DC6E12A6A3037EA /* FYNKeyboard.m in Sources */,
-				9C0CBFAA7D9B95B2F749849A332618C9 /* FYNKeyboard.xib in Sources */,
-				9CCAE022368CC96D0CE38EBFD2A422D7 /* FYNKeyboardCell.m in Sources */,
-				F3D356DA5ED6539E914174468C194C73 /* FYNKeyboardCell.xib in Sources */,
-				E32FE6288CF459B6CB58CD6388E9FD92 /* FYNModule-dummy.m in Sources */,
-				9022841402921E18A1EBD786B03B3B2E /* FYNNotification.m in Sources */,
-				CA62C5950FABDE7678775B1D8CCD837B /* FYNNotification.xib in Sources */,
-				064B6F1C49EFE1947AD9C71755C8292B /* FYNPicker.m in Sources */,
-				87D28DE5460A20D8EA01595B4B2AD46C /* FYNPicker.xib in Sources */,
-				6131887205EB4F07ADC7CEC4277BB497 /* FYNSegment.m in Sources */,
-				9F7602AF502B2767C65C1B283DF3C623 /* FYNSwitch.m in Sources */,
-				73CCC7B81BBFF88FA8B35EA91ACCE382 /* UIButton+FYButton.m in Sources */,
-				4566D0C147CA261D0DBCBAAF436EACBF /* UIImage+FYImage.m in Sources */,
-				6F5077D0453D42DE0949658082884E08 /* UITextField+FYTextField.m in Sources */,
-				B8695670B5DBA6FD0E23FA9436F97FFF /* UITextView+FYTextView.m in Sources */,
-				E72653ECD71C294FDCFAC2BCBD08F988 /* UIView+FYView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4464F11DF26F9011A37DEBD5EB0A0798 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				93872DFF1F3C70E200EF34BC /* UIView+FYView.m in Sources */,
+				93872DEF1F3C70E200EF34BC /* FYNDatePicker.m in Sources */,
+				93872DED1F3C70E200EF34BC /* FYNCustomPickerCell.m in Sources */,
+				93872DF51F3C70E200EF34BC /* FYNNotification.m in Sources */,
+				93872DFE1F3C70E200EF34BC /* UITextView+FYTextView.m in Sources */,
+				93872DF11F3C70E200EF34BC /* FYNKeyboard.m in Sources */,
+				93872DEB1F3C70E200EF34BC /* FYNCustomPicker.m in Sources */,
+				93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */,
+				93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */,
+				93872DFB1F3C70E200EF34BC /* UIButton+FYButton.m in Sources */,
+				93872DF71F3C70E200EF34BC /* FYNPicker.m in Sources */,
+				93872DFC1F3C70E200EF34BC /* UIImage+FYImage.m in Sources */,
+				93872DF31F3C70E200EF34BC /* FYNKeyboardCell.m in Sources */,
+				93872DF91F3C70E200EF34BC /* FYNSegment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,20 +468,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5F85E6610F0E26C9961D380F54A8DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA993C422824CF216E353F9CE3AB5FBB /* Pods-FYNModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20A1DBECD6B8E9E0BC48E162C0D835A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FYNModule;
-			target = 6ADC7A67864A0225E8A9CCFBF38D16C6 /* FYNModule */;
-			targetProxy = FC36E553D1BF43464B902D0C052616AE /* PBXContainerItemProxy */;
-		};
-		788CCAC76C00219ECE139CA8D0E18768 /* PBXTargetDependency */ = {
+		8153011F35F5FF6A6A3B89374518C389 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "FYNModule-FYNModule";
-			target = 1B85E17B90C6D2E4AA4000DA7B2C2AAC /* FYNModule-FYNModule */;
-			targetProxy = 0EB0CFD433C79E665F90CD87157F50F0 /* PBXContainerItemProxy */;
+			target = 562FA7A89BD15B386B6E46A84F56826E /* FYNModule-FYNModule */;
+			targetProxy = 4374133B668308945FFF8F5B17C1F267 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -624,45 +524,8 @@
 			};
 			name = Debug;
 		};
-		26A53DED554AC4FA436A18F9822ADA57 /* Debug */ = {
+		16C38FB97312E194D8C4C2EBA8EF1ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E46E6A673D926CB5F26321E5BC10DD8 /* Pods-FYNModule_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FYNModule_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FYNModule_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34C16E6242A3D07105C9AA7009191561 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYNModule";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -674,72 +537,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		483F2F48924A1D4AC9611D897C170BB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FYNModule/FYNModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYNModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYNModule/FYNModule.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FYNModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C23266680C393C7522B85E85A62F270 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FYNModule/FYNModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYNModule/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYNModule/FYNModule.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FYNModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -778,6 +575,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6F1F1F42378BAEBA4794D02F49802A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E46E6A673D926CB5F26321E5BC10DD8 /* Pods-FYNModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FYNModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FYNModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -823,9 +656,44 @@
 			};
 			name = Release;
 		};
-		73D9D66E6A2384B21ABAD237DF83FD43 /* Debug */ = {
+		7708F9B69429D733878FDA9E6224F671 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9DA35D08B7C180948421782F2AC210B /* FYNModule.xcconfig */;
+			baseConfigurationReference = 69088ED948F71EA71B70F724A5F291E8 /* Pods-FYNModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FYNModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FYNModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99F2745577ADEE5975F23E8ED0735DAC /* Release */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYNModule";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -838,7 +706,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -889,68 +757,23 @@
 			};
 			name = Debug;
 		};
-		B55A9FE2B30D2C0BCC26334DC75A76D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69088ED948F71EA71B70F724A5F291E8 /* Pods-FYNModule_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FYNModule_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FYNModule_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2669BAFF04CA7EF5152997E3DF8048A3 /* Build configuration list for PBXNativeTarget "FYNModule-FYNModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C38FB97312E194D8C4C2EBA8EF1ED9 /* Debug */,
+				99F2745577ADEE5975F23E8ED0735DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A1F346647B0D0F9E7B58EABD78CE6A1 /* Build configuration list for PBXNativeTarget "Pods-FYNModule_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26A53DED554AC4FA436A18F9822ADA57 /* Debug */,
-				B55A9FE2B30D2C0BCC26334DC75A76D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC3F7A04AAADE5A869B04A2629A3006B /* Build configuration list for PBXNativeTarget "FYNModule-FYNModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73D9D66E6A2384B21ABAD237DF83FD43 /* Debug */,
-				34C16E6242A3D07105C9AA7009191561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -964,11 +787,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E46403D92E33AE266E7E2A3A48C204FA /* Build configuration list for PBXNativeTarget "FYNModule" */ = {
+		FB0B29B183CB004D188874A838AECDD3 /* Build configuration list for PBXNativeTarget "Pods-FYNModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C23266680C393C7522B85E85A62F270 /* Debug */,
-				483F2F48924A1D4AC9611D897C170BB9 /* Release */,
+				6F1F1F42378BAEBA4794D02F49802A8A /* Debug */,
+				7708F9B69429D733878FDA9E6224F671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
