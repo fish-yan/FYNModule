@@ -30,7 +30,7 @@ This is just some modules for myself, also can use by everyone.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FYNModule/Classes/**/*.*'
+  s.source_files = 'FYNModule/Classes/*.*'
   
   s.resource_bundles = {
     'FYNModule' => ['FYNModule/Assets/*.png']
