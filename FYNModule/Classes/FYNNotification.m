@@ -8,6 +8,7 @@
 //
 
 #import "FYNNotification.h"
+#import "UIImage+FYImage.h"
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface FYNNotification ()
@@ -79,15 +80,14 @@
         [window addSubview:[FYNNotification share]];
     }
     self.messageLab.text = message;
-    NSBundle *bundle = [NSBundle bundleForClass:[self classForCoder]];
     switch (status) {
         case FYNNotice:
-            self.statusImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@/FYN-Notification-notice",bundle.bundlePath]];
+            self.statusImg.image = [UIImage fyImageNamed:@"FYN-Notification-notice"];
             self.oneView.backgroundColor = UIColorFromRGB(0x00c26d);
             self.messageLab.textColor = [UIColor whiteColor];
             break;
         case FYNSuccess:
-            self.statusImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@/FYN-Notification-notice", bundle.bundlePath]];
+            self.statusImg.image = [UIImage fyImageNamed:@"FYN-Notification-notice"];
             self.oneView.backgroundColor = UIColorFromRGB(0x00c26d);
             self.messageLab.textColor = [UIColor whiteColor];
             break;
@@ -97,7 +97,7 @@
 //            self.messageLab.textColor = [UIColor whiteColor];
 //            break;
         case FYNError:
-            self.statusImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@/FYN-Notification-error", bundle.bundlePath]];
+            self.statusImg.image = [UIImage fyImageNamed:@"FYN-Notification-error"];
             self.oneView.backgroundColor = UIColorFromRGB(0xff3b30);
             self.messageLab.textColor = [UIColor whiteColor];
             break;

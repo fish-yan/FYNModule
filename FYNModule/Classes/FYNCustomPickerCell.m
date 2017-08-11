@@ -13,9 +13,8 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    NSBundle *bundle = [NSBundle bundleForClass:[self classForCoder]];
-    [self.selectBtn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@/FYN-QB-unselected.png", bundle.bundlePath]] forState:(UIControlStateNormal)];
-    [self.selectBtn setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@/FYN-QB-selected.png", bundle.bundlePath]] forState:(UIControlStateSelected)];
+    [self.selectBtn setImage:[UIImage fyImageNamed:@"FYN-QB-unselected.png"] forState:(UIControlStateNormal)];
+    [self.selectBtn setImage:[UIImage fyImageNamed:@"FYN-QB-selected.png"] forState:(UIControlStateSelected)];
     // Initialization code
 }
 

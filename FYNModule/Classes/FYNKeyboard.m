@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIImage+FYImage.h"
 #import "FYNKeyboard.h"
 #import "FYNKeyboardCell.h"
 
@@ -202,7 +202,7 @@
             cell.leftSpace.constant = 0;
             cell.type = FYGary;
         } else if (indexPath.row == 35) {
-            cell.img.image = [UIImage imageNamed:@"FYN-KB-delete"];
+            cell.img.image = [UIImage fyImageNamed:@"FYN-KB-delete"];
             cell.imgWidth.constant = 25;
             cell.leftSpace.constant = 0;
             cell.type = FYBlack;
@@ -211,7 +211,7 @@
             cell.leftSpace.constant = ([UIScreen mainScreen].bounds.size.width - 10)/20;
             cell.type = FYWhite;
         } else if (indexPath.row == 43) {
-            cell.img.image = [UIImage imageNamed:@"FYN-KB-return"];
+            cell.img.image = [UIImage fyImageNamed:@"FYN-KB-return"];
             cell.imgWidth.constant = 25;
             cell.leftSpace.constant = 0;
             cell.type = FYBlue;
@@ -222,7 +222,7 @@
         }
     } else {
         if (indexPath.row == 33) {
-            cell.img.image = [UIImage imageNamed:@"FYN-KB-return"];
+            cell.img.image = [UIImage fyImageNamed:@"FYN-KB-return"];
             cell.imgWidth.constant = 25;
             cell.leftSpace.constant = 0;
             cell.type = FYBlue;

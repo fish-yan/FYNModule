@@ -61,9 +61,9 @@
 }
 
 + (UIImage *)fyImageNamed:(NSString *)name {
-    UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"FYModule.bundle/%@", name]];
+    UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"FYNModule.bundle/%@", name]];
     if (image == nil) {
-        image = [UIImage imageNamed:[NSString stringWithFormat:@"Frameworks/FYModule.framework/FYModule.bundle/%@", name]];
+        image = [UIImage imageNamed:[NSString stringWithFormat:@"Frameworks/FYNModule.framework/FYNModule.bundle/%@", name]];
     }
     return image;
 }
