@@ -132,7 +132,6 @@
     }
     CGImageRef cgImg = CGBitmapContextCreateImage(context);
     UIImage *resultImg = [UIImage imageWithCGImage:cgImg];
-    UIGraphicsEndImageContext();
     CGImageRelease(cgImg);
     CGContextRelease(context);
     return resultImg;
@@ -188,6 +187,20 @@
     UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return outputImage;
+}
+
+- (UIImage *)scaleToSize:(CGSize)size {
+    UIGraphicsBeginImageContext(size);
+    [self drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return outputImage;
+}
+
+- (UIImage *)cutWithRect:(CGRect)rect {
+    CGImageRef cutImgRef = CGImageCreateWithImageInRect(self.CGImage, rect);
+    UIImage *image = [UIImage imageWithCGImage:cutImgRef];
+    return image;
 }
 
 @end
