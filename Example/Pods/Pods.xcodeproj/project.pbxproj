@@ -12,7 +12,6 @@
 		59533CA751548EE21674C51BAAD8DE12 /* Pods-FYNModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBD37B6DA695D8C044D4770B9B27419 /* Pods-FYNModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7007C65329FDE122350B7363F79B7404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		871C39F1F3422A8052BC818BB8F70DD1 /* Pods-FYNModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C249EDBAEDF42AD90EA4FEF6DB8770DB /* Pods-FYNModule_Tests-dummy.m */; };
-		932CE67A1F4D59A400D024B4 /* NSDictionary+FYDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 932CE6791F4D59A300D024B4 /* NSDictionary+FYDictionary.m */; };
 		93872DEA1F3C70E200EF34BC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 93872DC51F3C70E200EF34BC /* .gitkeep */; };
 		93872DF91F3C70E200EF34BC /* FYNSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDD1F3C70E200EF34BC /* FYNSegment.m */; };
 		93872DFA1F3C70E200EF34BC /* FYNSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 93872DDF1F3C70E200EF34BC /* FYNSwitch.m */; };
@@ -65,8 +64,6 @@
 		69DA95BDE40E1C8B2A23FACA345BBDEE /* Pods-FYNModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYNModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A12CA9373A117BA0FF6DCA49DC8AF04 /* Pods-FYNModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FYNModule_Example.modulemap"; sourceTree = "<group>"; };
 		7FCBED9DA4546FEFBD4E60AF326863CC /* Pods_FYNModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYNModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		932CE6781F4D59A300D024B4 /* NSDictionary+FYDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FYDictionary.h"; sourceTree = "<group>"; };
-		932CE6791F4D59A300D024B4 /* NSDictionary+FYDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FYDictionary.m"; sourceTree = "<group>"; };
 		93872DC51F3C70E200EF34BC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		93872DDC1F3C70E200EF34BC /* FYNSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNSegment.h; sourceTree = "<group>"; };
 		93872DDD1F3C70E200EF34BC /* FYNSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNSegment.m; sourceTree = "<group>"; };
@@ -267,8 +264,6 @@
 				93872DE71F3C70E200EF34BC /* UITextView+FYTextView.m */,
 				93872DE81F3C70E200EF34BC /* UIView+FYView.h */,
 				93872DE91F3C70E200EF34BC /* UIView+FYView.m */,
-				932CE6781F4D59A300D024B4 /* NSDictionary+FYDictionary.h */,
-				932CE6791F4D59A300D024B4 /* NSDictionary+FYDictionary.m */,
 			);
 			name = Classes;
 			path = FYNModule/Classes;
@@ -458,7 +453,6 @@
 				93872DFD1F3C70E200EF34BC /* UITextField+FYTextField.m in Sources */,
 				93872E221F3D3AD000EF34BC /* FYNNotification.m in Sources */,
 				93872DFB1F3C70E200EF34BC /* UIButton+FYButton.m in Sources */,
-				932CE67A1F4D59A400D024B4 /* NSDictionary+FYDictionary.m in Sources */,
 				93872E201F3D3AD000EF34BC /* FYNKeyboardCell.m in Sources */,
 				93872DFC1F3C70E200EF34BC /* UIImage+FYImage.m in Sources */,
 				93872E1E1F3D3AD000EF34BC /* FYNKeyboard.m in Sources */,
