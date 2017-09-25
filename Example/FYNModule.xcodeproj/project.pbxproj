@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8A4A1AF3B6E23D98775D9488 /* Pods_FYNModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE2B0E87DE3D599AF458EB6 /* Pods_FYNModule_Tests.framework */; };
+		93FA4F921F79301800F127E3 /* FYNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA4F911F79301800F127E3 /* FYNPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E1BBEB817751353D22D0E8F /* FYNModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYNModule.podspec; path = ../FYNModule.podspec; sourceTree = "<group>"; };
-		3B3908AC99AAB17704D1A88A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		49DC215E1F56EED4DA10221C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E1BBEB817751353D22D0E8F /* FYNModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYNModule.podspec; path = ../FYNModule.podspec; sourceTree = "<group>"; };
+		3B3908AC99AAB17704D1A88A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49DC215E1F56EED4DA10221C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FYNModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYNModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +63,8 @@
 		6DE2B0E87DE3D599AF458EB6 /* Pods_FYNModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYNModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93FA4F901F79301800F127E3 /* FYNPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNPerson.h; sourceTree = "<group>"; };
+		93FA4F911F79301800F127E3 /* FYNPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNPerson.m; sourceTree = "<group>"; };
 		945DECD04EABBCE399E4E77D /* Pods-FYNModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B7EAEC99558EE5F64EB121AC /* Pods-FYNModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYNModule_Tests/Pods-FYNModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCB94762E59781DE2AE20822 /* Pods-FYNModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYNModule_Tests/Pods-FYNModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 			children = (
 				6003F59C195388D20070C39A /* FYNAppDelegate.h */,
 				6003F59D195388D20070C39A /* FYNAppDelegate.m */,
+				93FA4F901F79301800F127E3 /* FYNPerson.h */,
+				93FA4F911F79301800F127E3 /* FYNPerson.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FYNViewController.h */,
 				6003F5A6195388D20070C39A /* FYNViewController.m */,
@@ -319,7 +324,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FYNModule_Example/Pods-FYNModule_Example-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/FYNModule/FYNModule.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FYNModule/FYNModule.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -408,6 +413,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FYNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FYNViewController.m in Sources */,
+				93FA4F921F79301800F127E3 /* FYNPerson.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
