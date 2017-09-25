@@ -19,4 +19,7 @@
 
 - (UIImage *)grayImage;
 
+- (UIImage *)scaleToSize:(CGSize)size;
+
+- (UIImage *)cutWithRect:(CGRect)rect;
 @end
